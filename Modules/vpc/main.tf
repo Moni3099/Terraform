@@ -1,9 +1,3 @@
-provider "google" {
-  credentials = "${file("${var.credentials}")}"
-  project     = "${var.gcp_project}"
-  region      = "${var.region}"
-}
-
 // Create VPC
 resource "google_compute_network" "tesvpc" {
  name                    = "${var.vpc_name}-vpc"
