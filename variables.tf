@@ -10,6 +10,3 @@ variable "region" {
 variable "project_id" {
         default = "seventh-sunbeam-248205"
     }
-variable "var_company" { 
-        default = "company-name"
-    }
