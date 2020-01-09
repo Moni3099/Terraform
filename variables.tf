@@ -1,8 +1,14 @@
 variable "var_project" {
-        default = "project-name"
+        default = "My First Project"
     }
-variable "var_env" {
-        default = "dev"
+variable "network_name" {
+        default = "vpc.name"
+    }   
+variable "region" {
+        default = ""
+    }
+variable "project_id" {
+        default = "seventh-sunbeam-248205"
     }
 variable "var_company" { 
         default = "company-name"
